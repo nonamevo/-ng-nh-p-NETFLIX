@@ -1,0 +1,117 @@
+* {
+    padding: auto;
+    margin: auto;
+}
+
+.sign-in {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.netflix {
+    color: red;
+
+}
+
+.sign {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-right: 180px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.khung input {
+    border: none;
+    outline: none;
+    background-color: rgb(78, 75, 75);
+    display: flex;
+    border-radius: 5px;
+    padding: 8px;
+    width: 241px;
+    margin-bottom: 15px;
+}
+
+.khung button {
+    border: none;
+    outline: none;
+    background-color: red;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 9px;
+    margin-bottom: 15px;
+    width: 258px;
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+.khung button:hover {
+    background-color: 	DarkRed;
+}
+
+.pace p {
+    color: Gray;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.pace button {
+    border: none;
+    outline: none;
+    background-color: DimGray;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 9px;
+    border-radius: 5px;
+    width: 258px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.pace button:hover {
+    background-color: LightGray;
+}
+
+.remember {
+    color: Gray;
+    text-align: center;
+    padding: 10px
+}
+
+.remember a {
+    padding-left: 70px;
+    color: Gray;
+}
+
+.new-to {
+    color: 	Gray;
+    text-align: center;
+    margin-bottom: 11px;
+    padding-right: 79px;
+}
+
+.new-to a {
+    color: white;
+}
+
+.this {
+    color: Gray;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 9px;
+}
+
+.this ins {
+    color: blue;
+    padding-right: 30px;
+}
